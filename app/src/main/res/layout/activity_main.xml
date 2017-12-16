@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.google.employee.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="员工数据库"
+        android:textSize="30sp"
+        android:onClick="operate"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:text="添加员工"
+        android:onClick="operate"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/find"
+        android:layout_width="match_parent"
+        android:text="查找员工"
+        android:onClick="operate"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/mod"
+        android:layout_width="match_parent"
+        android:text="修改信息"
+        android:onClick="operate"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/del"
+        android:layout_width="match_parent"
+        android:text="删除员工"
+        android:onClick="operate"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:text="退出"
+        android:onClick="operate"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

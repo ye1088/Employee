@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="编号:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="请输入....."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="姓名:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="请输入....."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="级别:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/level"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="请输入....."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="电话:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/tel"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="请输入....."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="入职时间:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/enter_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="请输入....." />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="工资:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/salary"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="请输入....."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="上级编号:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/sjbh"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="请输入....."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="下级左支编号:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/xjzzbh"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="请输入....."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="下级右支编号:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/xjyzbh"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="请输入....."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="会员帐号:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="请输入....."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="账户密码:"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/passward"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:hint="请输入....."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_add_data"
+        android:text="添加"
+        android:onClick="add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

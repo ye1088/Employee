@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<btnData>
+		<Btn_Data_Dir>
+			./Data/btn
+		</Btn_Data_Dir>
+		<Btn_Data_Path>
+			./Data/btn/btndata.dat
+		</Btn_Data_Path>
+	</btnData>
+	<empData>
+		<Emp_Data_Id_Len>
+			20
+		</Emp_Data_Id_Len>
+		<Emp_Data_Name_Len>
+			30
+		</Emp_Data_Name_Len>
+		<Emp_Data_Dir>
+			./Data/employee
+		</Emp_Data_Dir>
+	</empData>
+</root>
